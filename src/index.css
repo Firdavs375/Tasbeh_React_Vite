@@ -67,5 +67,8 @@ button:focus:nth-child(1){
   button:hover{
     opacity: calc(0.8);
     background: #B3CF9C;
+    border: 0;
+    outline: 0;
+    padding: 5px;
   }
 }

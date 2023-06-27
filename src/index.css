@@ -72,6 +72,7 @@ button:focus:nth-child(1) {
   button:hover {
     opacity: calc(0.8);
     background: #B3CF9C;
+    font-size: 18px;
   }
 
   .NumOyna {

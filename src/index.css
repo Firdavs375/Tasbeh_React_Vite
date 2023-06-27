@@ -38,7 +38,7 @@ body {
   font-size: 20px;
 }
 
-.Start{
+.Start {
   width: 120px;
   height: 120px;
   border-radius: 50%;
@@ -47,16 +47,21 @@ body {
   margin-top: 30px;
   background: #99621E;
   color: #fff;
-  text-shadow: 0 0 5em #739E82 ;
+  text-shadow: 0 0 5em #739E82;
 }
 
+button {
+  border: 0;
+  outline: 0;
+  padding: 10px;
+}
 
-button:focus{
+button:focus {
   opacity: calc(0.8);
   background: #507A59;
 }
 
-button:focus:nth-child(1){
+button:focus:nth-child(1) {
   opacity: calc(0.8);
   background: #A0582C;
 }
@@ -64,11 +69,22 @@ button:focus:nth-child(1){
 
 
 @media (max-width: 575px) {
-  button:hover{
+  button:hover {
     opacity: calc(0.8);
     background: #B3CF9C;
-    border: 0;
-    outline: 0;
-    padding: 5px;
+  }
+
+  .NumOyna {
+    width: 240px;
+    height: 85px;
+    background: #739E82;
+    border-radius: 20px;
+    margin-top: 180px;
+    text-align: center;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
   }
 }

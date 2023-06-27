@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #2C5530;
+  font-family: 'Agdasima', sans-serif;
+}
+
+.NumOyna {
+  width: 240px;
+  height: 85px;
+  background: #739E82;
+  border-radius: 20px;
+  margin-top: 220px;
+  text-align: center;
+  font-size: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.Reset {
+  width: 60px;
+  height: 60px;
+  background: #D38B5D;
+  border: 0;
+  border-radius: 50%;
+  margin-right: -147px;
+  color: aliceblue;
+  font-family: 'Agdasima';
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+.Start{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 0;
+  font-size: 28px;
+  margin-top: 30px;
+  background: #99621E;
+  color: #fff;
+  text-shadow: 0 0 5em #739E82 ;
+}
+
+
+button:focus{
+  opacity: calc(0.8);
+  background: #507A59;
+}
+
+button:focus:nth-child(1){
+  opacity: calc(0.8);
+  background: #A0582C;
+}
+
+
+
+@media (max-width: 575px) {
+  button:hover{
+    opacity: calc(0.8);
+    background: #B3CF9C;
+  }
+}
